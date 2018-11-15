@@ -1,4 +1,4 @@
-FROM "homeassistant/home-assistant:0.80.3"
+FROM "homeassistant/home-assistant:latest"
 LABEL maintainer="Jesper Nilsson"
 
 RUN mkdir /runwatch
