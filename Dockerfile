@@ -1,4 +1,5 @@
 FROM "homeassistant/home-assistant:latest"
+FROM ubuntu:18.04
 LABEL maintainer="Jesper Nilsson"
 
 RUN mkdir /runwatch
