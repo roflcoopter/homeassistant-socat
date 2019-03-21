@@ -1,7 +1,6 @@
 FROM "homeassistant/raspberrypi3-homeassistant:latest"
 LABEL maintainer="Jesper Nilsson"
 
-RUN mkdir /runwatch
 COPY runwatch/run.sh /runwatch/run.sh
 
 # Monitor HomeAssistant
