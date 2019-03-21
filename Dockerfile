@@ -1,4 +1,4 @@
-FROM "homeassistant/home-assistant:latest"
+FROM "homeassistant/raspberrypi3-homeassistant:latest"
 LABEL maintainer="Jesper Nilsson"
 
 RUN mkdir /runwatch
