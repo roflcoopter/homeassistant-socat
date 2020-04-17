@@ -12,7 +12,7 @@ RUN apk update && apk add --no-cache socat
 # Install adb/adbutils
 RUN apk add \
     android-tools \
-    --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing &&
+    --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing && \
     pip install adbutils
 
 # Monitor socat
